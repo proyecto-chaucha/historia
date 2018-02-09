@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Comfortaa|Source+Code+Pro);
+
 #particle {
   background-color: #F9F9F9;
   position:fixed;
@@ -14,11 +15,9 @@
   text-align: center;
 }
 
-#overlay {
-  position: relative;
-}
+
 a, a:visited, a:active {
-  color: #333;
+  color: #111;
   text-decoration: none;
   border-bottom: 1px blue dotted;
 }
@@ -31,18 +30,24 @@ a:hover {
 
 body{
   font-family: 'Comfortaa', cursive;
-  color: #333;
+  color: #111;
+}
+
+header {
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 5px;
+  text-align: center;
 }
 
 header h1{
-  text-align: center;
+  font-size: 3em;
   font-weight: bold;
-  margin-top: 0;
+  margin-bottom: 0px;
 }
   
  header p{
-   text-align: center;
-   margin-bottom: 0;
+   margin-top: 0px;
  }
 
 .hexa{
@@ -284,7 +289,7 @@ header h1{
   
   .flag {
     font-family: 'Source Code Pro', monospace;
-    font-size: 1em;
+    font-size: 1.2em;
   }
 
   .direction-l .flag:after {
