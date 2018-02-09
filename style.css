@@ -48,7 +48,7 @@ header h1{
 .hexa{
   border: 0px;
   float: left;
-  text-align: center;
+  text-align: top;
   height: 35px;
   width: 60px;
   font-size: 22px;
@@ -193,7 +193,7 @@ header h1{
 
 .time-wrapper {
   font-family: 'Source Code Pro', monospace;
-  font-size: 12px;
+  font-size: 0.7em;
   display: block;
   position: relative;
   margin: 4px 0 0 0;
@@ -218,12 +218,12 @@ header h1{
 }
 
 .desc {
-  font-size: 14px;
+  font-size: 0.8em;
   text-align: justify;
   position: relative;
   margin: 1em 0 0 0;
   padding: 1em;
-  background: rgb(250,250,250);
+  background: rgb(255,255,255);
   -webkit-box-shadow: 0 0 1px rgba(0,0,0,0.20);
   -moz-box-shadow: 0 0 1px rgba(0,0,0,0.20);
   box-shadow: 0 0 1px rgba(0,0,0,0.20);
@@ -283,7 +283,8 @@ header h1{
   }
   
   .flag {
-    font-size: 18px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1em;
   }
 
   .direction-l .flag:after {

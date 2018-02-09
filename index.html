@@ -12,7 +12,7 @@
 <div id="particle"></div>
 <script type="text/javascript">
 // ParticlesJS Config.
-particlesJS("particle",{particles:{number:{value:80,density:{enable:!0,value_area:700}},color:{value:"#F71568"},shape:{type:"circle",stroke:{width:0,color:"#000000"},polygon:{nb_sides:5}},opacity:{value:0.8,random:!1,anim:{enable:!1,speed:1,opacity_min:.1,sync:!1}},size:{value:2,random:!0,anim:{enable:!1,speed:40,size_min:.1,sync:!1}},line_linked:{enable:!0,distance:150,color:"#F71568",opacity:.4,width:1},move:{enable:!0,speed:6,direction:"none",random:!1,straight:!1,out_mode:"out",bounce:!1,attract:{enable:!1,rotateX:600,rotateY:1200}}},interactivity:{detect_on:"canvas",events:{onhover:{enable:!0,mode:"grab"},onclick:{enable:!0,mode:"push"},resize:!0},modes:{grab:{distance:140,line_linked:{opacity:1}},bubble:{distance:400,size:40,duration:2,opacity:8,speed:3},repulse:{distance:200,duration:.4},push:{particles_nb:4},remove:{particles_nb:2}}},retina_detect:!0});
+particlesJS("particle",{particles:{number:{value:120,density:{enable:!0,value_area:700}},color:{value:"#000000"},shape:{type:"circle",stroke:{width:0,color:"#000000"},polygon:{nb_sides:5}},opacity:{value:0.8,random:!1,anim:{enable:!1,speed:1,opacity_min:.1,sync:!1}},size:{value:2,random:!0,anim:{enable:!1,speed:40,size_min:.1,sync:!1}},line_linked:{enable:!0,distance:150,color:"#000000",opacity:.4,width:1},move:{enable:!0,speed:6,direction:"none",random:!1,straight:!1,out_mode:"out",bounce:!1,attract:{enable:!1,rotateX:600,rotateY:1200}}},interactivity:{detect_on:"canvas",events:{onhover:{enable:!0,mode:"grab"},onclick:{enable:!0,mode:"push"},resize:!0},modes:{grab:{distance:140,line_linked:{opacity:1}},bubble:{distance:400,size:40,duration:2,opacity:8,speed:3},repulse:{distance:200,duration:.4},push:{particles_nb:4},remove:{particles_nb:2}}},retina_detect:!0});
 </script>
 
 <ul class="timeline overlay">
@@ -20,14 +20,14 @@ particlesJS("particle",{particles:{number:{value:80,density:{enable:!0,value_are
 		<div class="direction-r">
 			<div class="flag-wrapper">
 				<span class="hexa"></span>
-				<span class="flag">Genesis Block (#0)</span>
+				<span class="flag"><a href="http://insight.chaucha.cl/block/6e27bffd2a104bea1c870be76aab1cce13bebb0db40606773827517da9528174" target="_blank">Genesis Block</a></span>
 				<span class="time-wrapper"><span class="time">11.08.2017 - 03:54:15</span></span>
 			</div>
 			<div class="desc">
-				<p>El primer bloque de la Red Chaucha.</p>
-				<p>Este bloque no fue minado, sino que se definió de manera explicita en el <a href="https://github.com/proyecto-chaucha/chauchera/blob/ed6cbc01e4f787c344c4ba6d016ee21a071b7cfd/src/chainparams.cpp#L51">código fuente</a> de la Chauchera para permitir la creación de los siguientes bloques que conforman la red.</p>
+				<p>La creación de la Red Chaucha.</p>
+				<p>Este bloque no fue minado, sino que se definió de manera explicita en el <a href="https://github.com/proyecto-chaucha/chauchera/blob/ed6cbc01e4f787c344c4ba6d016ee21a071b7cfd/src/chainparams.cpp#L51" target="_blank">código fuente</a> de la Chauchera para permitir la creación de los siguientes bloques que conforman la red.</p>
 				<p>Un Genesis Block es el punto de inicio de cualquier criptomoneda.</p>
-				<p>Otra caracteristica importante del Genesis Block es el <a href="https://en.bitcoin.it/wiki/Coinbase">coinbase</a>, que es un mensaje que caracteriza la epoca en donde ocurrió la creación de la criptomoneda, y para la Chaucha se utilizó el siguiente:</p>
+				<p>Otra caracteristica importante del Genesis Block es el <a href="https://en.bitcoin.it/wiki/Coinbase" target="_blank">coinbase</a>, que es un mensaje que caracteriza la epoca en donde ocurrió la creación de la criptomoneda, y para la Chaucha se utilizó el siguiente:</p>
 				<p class="monospace">"La tercera, 11/09/2017: EE.UU. y Corea del Norte alarman al mundo"</p>
 				<p>El error en la fecha del coinbase nunca pudo ser solucionado.</p>
 			</div>
@@ -38,12 +38,44 @@ particlesJS("particle",{particles:{number:{value:80,density:{enable:!0,value_are
 		<div class="direction-l">
 			<div class="flag-wrapper">
 				<span class="hexa"></span>
-				<span class="flag">Primer bloque</span>
+				<span class="flag"><a href="http://insight.chaucha.cl/block/eadcbcb3f8960778b1c39415d1447a5cb45981ac15b269e31924f5f4701ea0e8" target="_blank">Primer bloque</a></span>
 				<span class="time-wrapper"><span class="time">20.08.2017 - 05:00:59</span></span>
 			</div>
 			<div class="desc">
 				<p>El primer bloque minado de la Red Chaucha se generó 9 dias despues de la creación del Genesis Block.</p>
-				<p></p>
+				<p>Mientras se realizaban pruebas en la red se detectó un ataque de minería por parte de una dirección IP en Rusia, y para proteger el desarrollo se decidió por abandonar la primera red y comenzar a minar una nueva Red Chaucha de manera privada.</p>
+				<p>La recompensa por minar el primer bloque fue de 50.000 CHA</p>
+				<p>César utilizó esta recompensa para generar la <a href="http://insight.chaucha.cl/tx/8390616e86fc9275654559bec590100c113c91026b65454bbc940b3839050bf9" target="_blank">primera transacción</a> de la red por 150 CHA hacia Camilo, como compensación por lo minado en la primera Red Chaucha.</p>
+				<p>La dirección que almacena el resto de la primera transacción (49850 CHA) permanece bajo control de César hasta el día de hoy.</p>
+			</div>
+		</div>
+	</li>
+
+	<li>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="hexa"></span>
+				<span class="flag"><a href="http://insight.chaucha.cl/block/dac31757a6b3205ac5e94179300d903c3fd01b9c7200e5a7c9c52b47acdda6a7" target="_blank">Bloque #602</a></span>
+				<span class="time-wrapper"><span class="time">25.08.2017 - 12:55:23</span></span>
+			</div>
+			<div class="desc">
+				<p>Implementación de la primera Mining Pool para la Red Chaucha.</p>
+				<p>Se definió un impuesto de 3% de todas las Chauchas generadas por el sistema, las cuales se repartian por partes iguales (1.5% c/u) entre Camilo y César, los primeros mineros de la red.</p>
+			</div>
+		</div>
+	</li>
+
+	<li>
+		<div class="direction-l">
+			<div class="flag-wrapper">
+				<span class="hexa"></span>
+				<span class="flag"><a href="http://insight.chaucha.cl/block/9315dc15ebf47af351d55b71f6572456e30e7724f22c9807723393dae9593ef7" target="_blank">Bloque #2835</a></span>
+				<span class="time-wrapper"><span class="time">28.08.2017 - 07:57:45</span></span>
+			</div>
+			<div class="desc">
+				<p>A contar de este bloque se implementó el algoritmo de distribución variable de Chauchas, que definía la recompensa de generación de bloques en base a la siguiente ecuación:</p>
+				<p class="monospace">recompensa = int(49990/bloque + 10)</p>
+				<p>Por esto, la recompensa de minar este bloque fue de 27 CHA</p>
 			</div>
 		</div>
 	</li>
