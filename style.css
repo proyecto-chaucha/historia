@@ -1,14 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Comfortaa|Source+Code+Pro);
-
-#particle {
-  background-color: #F9F9F9;
-  position:fixed;
-  top:0;
-  right:0;
-  bottom:0;
-  left:0;
-  z-index:0; 
-}
+@import url(https://fonts.googleapis.com/css?family=Montserrat|Source+Code+Pro);
 
 .monospace {
   font-family: 'Source Code Pro', monospace;
@@ -30,8 +20,9 @@ a:hover {
 }
 
 body{
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Montserrat', cursive;
   color: #111;
+  background-color: #FCFEF5;
 }
 
 header {
@@ -46,7 +37,7 @@ header h1{
   font-weight: bold;
   margin-bottom: 0px;
 }
-  
+
  header p{
    margin-top: 0px;
  }
@@ -65,10 +56,10 @@ header h1{
 }
 
 .hexa:before{
-  content: ""; 
-  position: absolute; 
-  left: 0; 
-  width: 0; 
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
   height: 0;
   border-bottom: 15px solid #f0f0f0;
   border-left: 30px solid transparent;
@@ -77,10 +68,10 @@ header h1{
 }
 
 .hexa:after{
-  content: ""; 
-  position: absolute; 
-  left: 0; 
-  width: 0; 
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
   height: 0;
   border-left: 30px solid transparent;
   border-right: 30px solid transparent;
@@ -258,7 +249,7 @@ header h1{
     clear: both;
     visibility: hidden;
   }
-  
+
   .timeline .hexa {
     left: -28px;
     right: auto;
@@ -287,7 +278,7 @@ header h1{
   .flag-wrapper {
     display: inline-block;
   }
-  
+
   .flag {
     font-family: 'Source Code Pro', monospace;
     font-size: 1.2em;
